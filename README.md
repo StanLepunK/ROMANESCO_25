@@ -1,10 +1,10 @@
-# ROMANESCO PROJECT
-## Generative Art Live Application
+#ROMANESCO PROJECT
+###Generative Art Live Application
 
-Three main sketches :
-Controleur, Prescene, and Scene.
-One annexe sketch :
-Miroir.
+####Three main sketches :
+Controleur, Prescene, and Scene
+####One annexe sketch :
+Miroir
 
 The controler is a specific sketch, 
 but the prescene, scene and mirroir are very similare.
