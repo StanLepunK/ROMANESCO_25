@@ -1,5 +1,5 @@
 #ROMANESCO PROJECT
-###Generative Art Live Application
+###Generative Live Art Application
 
 ####Three main sketches :
 Controleur, Prescene, and Scene
