@@ -1,5 +1,6 @@
 #ROMANESCO PROJECT
 ###Generative Live Art Application
+Romanesco is community project to share, see, export the creative code from Processing
 
 ####Three main sketches :
 Controleur, Prescene, and Scene
