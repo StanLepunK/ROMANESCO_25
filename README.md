@@ -27,7 +27,6 @@ ellipse, rect, line, point, set, translateXYZ, rotateXYZ, scale, fill, noFill, s
 becareful the miroir. don't work with Pmatrix3D() !
 
 
-######Soon I prepare a Startcoding Sketch to make easier the developent of objects
-
+######Soon I prepare a Startcoding Sketch to make easier the objects coding.
 ##LICENCE
 ROMANESCO alpha 24 is under the licence CeCILL, very similar to the GNU GPL licence.
