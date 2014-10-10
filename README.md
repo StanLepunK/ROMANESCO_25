@@ -25,18 +25,18 @@ If you want code in Romanesco there few compulsory variables and functions that 
 * Create a main folder, in this one create a "sources".
 * In "sources" you create "preferences" folder
 * In "preferences" you drop :
- * "background_shader" 
- * "Font"
- * "Images" 
- * "Karaoke" 
- * "network" 
- * "objects" 
- * "pixel" 
- * sketchProperty.csv 
- * "setting" 
- * shaderBackgroundList.csv 
- * sliderListEN.csv 
- * sliderListFR.csv
+ * "background_shader" folder
+ * "Font" folder
+ * "Images" folder 
+ * "Karaoke" folder 
+ * "network" folder 
+ * "objects" folder 
+ * "pixel"  folder
+ * sketchProperty.csv file
+ * "setting" folder 
+ * shaderBackgroundList.csv file 
+ * sliderListEN.csv file
+ * sliderListFR.csv file
 * Export all your Apps, put the "Launcher.app" in the main Folder, in "sources" drop the Scene, Prescene and the Controleur.
 * Check your internet connexion and run.
 
