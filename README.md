@@ -1,33 +1,30 @@
-#ROMANESCO PROJECT
-###Generative Live Art Application
-Romanesco is community project to share, see, export the creative code from Processing
+##ROMANESCO version 25 / Romanesco Unu 1.0.0.25
+Romanesco can be your manager to test your sketch in a P3D world.
+This sketches are the final work for the first Romanesco Unu release.
 
-####Three main sketches :
-Controleur, Prescene, and Scene
-####One annexe sketch :
-Miroir
+##Architecture Sketches
+* Romanesco : Sketch to set the Romanesco application.
+* Controleur : interface slider to use the objects and the different parameters.
+* Prescene : use to move the object in the 3D space.
+* Scene : Display the result, we can use this one to send to syphon or not.
 
-The controler is a specific sketch, 
-but the prescene, scene and mirroir are very similare.
+##Functions and variable
+If you want code in Romanesco there few compulsory variables and functions that you can find in the file "Romanesco functions ##.txt" and others who can help you.
 
-The main sketch is the Prescene, the Scene and Mirroir is a replic of this one.
-
-The Controleur send information to the Prescene about the different instruction that prescene must be execute, 
-the Prescene execute all the instruction, and add few instructions like the mouse position, sound effect...
-then send all informations to the Scene or the Mirroir for the final work.
-
-Between the Prescene, Scene there are a commom tabs :
-Object, Camera, SuperRomanesco
-
-
-Between the Prescene and Miroir
-same
-P3D tab, Super Romanesco
-for the tabs objects is very close you must add the command "mirroir.function()" before all the graphic functiun like
-ellipse, rect, line, point, set, translateXYZ, rotateXYZ, scale, fill, noFill, stroke, noStroke, strokeWeight,text, beginShape, endShape, vertex, box, sphere, quad, popMatrix, pushMatrix, applyMatrix...
-becareful the miroir. don't work with Pmatrix3D() !
+##Code and Export
+* Create a new tab with a clean sub class "SuperRomanesco" in Prescene Sketch
+* Give number ID to this one, this number must be in the series of the other. No interruption from the first Obj ID to the last ID.
+* When your code is done, run the Prescene to create the index of yours objects in the folder "Prescene-#/preferences/objects" paste this one in the to the folder "Controleur-#/preferences/objects".
+* Change or add a thumbnail for your object "Controleur_##/data/thumbnail/.../name+IDnumber+png" there is 4 pic for each object. Size 22x22 pixel in png mode. To help, you can use the illustrator file : picto
+* Run the sketch Controleur
+* If your code work fine, you can past your brick in the folder "Scene-#"
+* Export all your Apps, put the "Launcher.app" them at the root, in the same folder create a folder "source", in this one you can drop the Scene, Prescene and the Controleur dont forget to create the folder "preferences" and put in this one every data you need.
+* it's done !
 
 
-######Soon I prepare a Startcoding Sketch to make easier the objects coding.
+
+
 ##LICENCE
-ROMANESCO alpha 24 is under the licence CeCILL, very similar to the GNU GPL licence.
+ROMANESCO is under the licence CeCILL.
+Romanesco is free for the non-commercial use in other case contact-me.
+2011-2014.
