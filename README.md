@@ -8,7 +8,7 @@ This sketches are the final work for the first Romanesco Unu release.
 * Prescene : use to move the object in the 3D space.
 * Scene : Display the result, we can use this one to send to syphon or not.
 
-##Functions and variable
+##Functions and variables
 If you want code in Romanesco there few compulsory variables and functions that you can find in the file "Romanesco functions ##.txt" and others who can help you.
 
 ##Code and Export
@@ -18,15 +18,20 @@ If you want code in Romanesco there few compulsory variables and functions that 
 * Change or add a thumbnail for your object "Controleur_##/data/thumbnail/.../name+IDnumber+png" there is 4 pic for each object. Size 22x22 pixel in png mode. You can use the illustrator file in the main folder.
 * Run the sketch Controleur
 * If your code work fine, you can past your brick in the folder "Scene-##"
-* Export all your Apps, put the "Launcher.app" them at the root, in the same folder create a folder "source", in this one you can drop the Scene, Prescene and the Controleur dont forget to create the folder "preferences" and put in this one every data you need.
-* it's done !
 
-##Built Romanesco
-* Before export each sketch
-* Create a folder app, in this one create a "sources".
+##Built Romanesco on OSX
+* Before export your sketches
+* Create a main folder, in this one create a "sources".
 * In "sources" you create "preferences" folder
-* In "preferences" you drop
-** "background_shader", "Font", "Images", "Karaoke", "network", "objects", "pixel", sketchProperty.csv, "setting", shaderBackgroundList.csv, sliderListEN.csv, sliderListFR.csv
+* In "preferences" you drop "background_shader", "Font", "Images", "Karaoke", "network", "objects", "pixel", sketchProperty.csv, "setting", shaderBackgroundList.csv, sliderListEN.csv, sliderListFR.csv
+* Export all your Apps, put the "Launcher.app" in the main Folder, in "sources" drop the Scene, Prescene and the Controleur.
+* Check your internet connexion and run.
+
+##Built Romanesco on Linux
+* ?
+
+##Built Romanesco on Windows
+* ?
 
 
 
