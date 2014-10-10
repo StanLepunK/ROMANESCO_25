@@ -14,12 +14,19 @@ If you want code in Romanesco there few compulsory variables and functions that 
 ##Code and Export
 * Create a new tab with a clean sub class "SuperRomanesco" in Prescene Sketch
 * Give number ID to this one, this number must be in the series of the other. No interruption from the first Obj ID to the last ID.
-* When your code is done, run the Prescene to create the index of yours objects in the folder "Prescene-#/preferences/objects" paste this one in the to the folder "Controleur-#/preferences/objects".
-* Change or add a thumbnail for your object "Controleur_##/data/thumbnail/.../name+IDnumber+png" there is 4 pic for each object. Size 22x22 pixel in png mode. To help, you can use the illustrator file : picto
+* When your code is done, run the Prescene to create the index of yours objects in the folder : index_romanesco_objects.csv :  "Prescene-#/preferences/objects" paste this one in the to the folder "Controleur-#/preferences/objects".
+* Change or add a thumbnail for your object "Controleur_##/data/thumbnail/.../name+IDnumber+png" there is 4 pic for each object. Size 22x22 pixel in png mode. You can use the illustrator file in the main folder.
 * Run the sketch Controleur
-* If your code work fine, you can past your brick in the folder "Scene-#"
+* If your code work fine, you can past your brick in the folder "Scene-##"
 * Export all your Apps, put the "Launcher.app" them at the root, in the same folder create a folder "source", in this one you can drop the Scene, Prescene and the Controleur dont forget to create the folder "preferences" and put in this one every data you need.
 * it's done !
+
+##Built Romanesco
+*before export each sketch
+*create a folder app, in this one create a "sources".
+*In "sources" you create "preferences" folder
+*In "preferences" you drop
+**"background_shader", "Font", "Images", "Karaoke", "network", "objects", "pixel", sketchProperty.csv, "setting", shaderBackgroundList.csv, sliderListEN.csv, sliderListFR.csv
 
 
 
