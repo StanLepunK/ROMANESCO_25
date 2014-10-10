@@ -22,11 +22,11 @@ If you want code in Romanesco there few compulsory variables and functions that 
 * it's done !
 
 ##Built Romanesco
-*before export each sketch
-*create a folder app, in this one create a "sources".
-*In "sources" you create "preferences" folder
-*In "preferences" you drop
-**"background_shader", "Font", "Images", "Karaoke", "network", "objects", "pixel", sketchProperty.csv, "setting", shaderBackgroundList.csv, sliderListEN.csv, sliderListFR.csv
+* Before export each sketch
+* Create a folder app, in this one create a "sources".
+* In "sources" you create "preferences" folder
+* In "preferences" you drop
+** "background_shader", "Font", "Images", "Karaoke", "network", "objects", "pixel", sketchProperty.csv, "setting", shaderBackgroundList.csv, sliderListEN.csv, sliderListFR.csv
 
 
 
